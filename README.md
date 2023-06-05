@@ -29,7 +29,7 @@ javac CarSharing.java
 java CarSharing
 ```
 
-### To create a JAR file for the Simple Banking System project, perform the following steps:
+### To create a JAR file for the Car Sharing project, perform the following steps:
 1. Compile the Java source files and create the JAR file using the jar command.
 ```shell
 javac CarSharing.java
@@ -52,7 +52,7 @@ While working on the project, I encountered various difficulties, such as design
 Overall, the Car Sharing project has been an excellent learning opportunity for me as a Java Backend Developer. It provided practical experience in working with databases, utilizing advanced Java features, and developing a comprehensive program. I am grateful for the knowledge and skills gained throughout this project.
 
 ## Contributing
-Contributions to the Simple Banking System project are welcome. If you would like to contribute, please follow these guidelines:
+Contributions to the Car Sharing project are welcome. If you would like to contribute, please follow these guidelines:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -71,7 +71,7 @@ The Car Sharing project has the following dependencies:
 Please ensure that you have the necessary dependencies installed before running the project.
 
 ## Contact Information
-If you have any questions, suggestions, or feedback regarding the Simple Banking System project, please contact:
+If you have any questions, suggestions, or feedback regarding the Car Sharing project, please contact:
 - Project Developer: ```Daulet Toganbayev```
 - Email: ```daulet.toganbayev@gmail.com```
 

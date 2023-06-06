@@ -64,8 +64,8 @@ Contributions to the Car Sharing project are welcome. If you would like to contr
 ## Dependencies
 The Car Sharing project has the following dependencies:
 
-- Java Development Kit (JDK)
-- H2 Database Engine
+- Java Development Kit 17 (JDK)
+- H2 Database Engine 1.4.200
 - JDBC Driver
 
 Please ensure that you have the necessary dependencies installed before running the project.

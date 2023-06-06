@@ -98,10 +98,9 @@ public class CustomerService {
      * @param loggedIn true if the user is logged in as a customer, false otherwise
      */
     public static void isLoggedIn(boolean loggedIn) {
-        if (loggedIn) {
-            CustomerMenu.printCustomerList();
-        } else {
-            Menu.show();
+        switch (loggedIn ? "true" : "false") {
+            case "true" -> CustomerMenu.printCustomerList();
+            case "false" -> Menu.show();
         }
     }
 }

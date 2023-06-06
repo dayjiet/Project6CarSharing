@@ -107,10 +107,9 @@ public class ManagerService {
      * @param loggedIn true if the user is logged in as a manager, false otherwise
      */
     public static void isLoggedIn(boolean loggedIn) {
-        if (loggedIn) {
-            ManagerMenu.show();
-        } else {
-            Menu.show();
+        switch (loggedIn ? "true" : "false") {
+            case "true" -> ManagerMenu.show();
+            case "false" -> Menu.show();
         }
     }
 }

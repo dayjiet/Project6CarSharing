@@ -64,9 +64,9 @@ Contributions to the Car Sharing project are welcome. If you would like to contr
 ## Dependencies
 The Car Sharing project has the following dependencies:
 
-- Java Development Kit 17 (JDK)
-- H2 Database Engine 1.4.200
-- JDBC Driver
+- Java Development Kit (JDK): Ensure that you have a compatible JDK installed. Make sure you have JDK version 17.0 or higher installed. You can download the latest JDK from the [official Oracle website](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
+- SQLite JDBC Driver: Obtain the driver from a reliable source and include it in the project's classpath. The recommended version is 3.41.2. You can download the JDBC driver from the [SQLite JDBC Driver website](https://github.com/xerial/sqlite-jdbc) or include it as a Maven/Gradle dependency.
+- H2 Database Engine: The project also requires the H2 Database Engine version 1.4.200. You can download it from the [H2 Database Engine website](http://www.h2database.com/html/download.html) or include it as a Maven/Gradle dependency.
 
 Please ensure that you have the necessary dependencies installed before running the project.
 

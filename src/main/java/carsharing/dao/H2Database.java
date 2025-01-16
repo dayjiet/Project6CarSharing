@@ -22,24 +22,7 @@ public class H2Database {
 
         DB_URL = "jdbc:h2:./src/carsharing/db/" + fileName;
 
-        Connection connection = null;
-
-        try {
-            // Register the JDBC database driver
-            Class.forName(JDBC_DRIVER);
-
-            // Open a connection
-            connection = DriverManager.getConnection(DB_URL);
-
-            // Set auto-commit to true
-            connection.setAutoCommit(true);
-
-            // Handle errors for JDBC and Class.forName
-        } catch (ClassNotFoundException | SQLException e) {
-            e.printStackTrace();
-        }
-
-        return connection;
+        return connect();
     }
 
     public static Connection connect() {

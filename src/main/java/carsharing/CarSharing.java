@@ -26,7 +26,7 @@ public class CarSharing {
             }
         }
 
-        if (fileName.isBlank() || fileName.isEmpty()) {
+        if (fileName.isBlank()) {
             fileName = "temp";
         }
 
